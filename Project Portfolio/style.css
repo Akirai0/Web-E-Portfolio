@@ -71,32 +71,17 @@ html{
 }
 .allimgakirai{
     display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    -webkit-justify-content: flex-start;
     justify-content: flex-start;
 }
 .imgakiraispan{
     border-radius: 9999px;
     display: inline-flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
     position: relative;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
     flex-shrink: 0;
     background: #A0AEC0;
     color: #1A202C;
@@ -115,9 +100,7 @@ html{
     
 }
 .akirai_img:hover{
-    -webkit-animation: spin 2s;
-    -moz-animation: spin 2s;
-    animation: spin 1.5s;
+    animation: spin 2s;
 }
 @-moz-keyframes spin{
     100% {-moz-transform: rotate(360deg);}
@@ -225,8 +208,8 @@ html{
 .boxskills{
     transform: none;
     flex-direction: column;
-    width: 550px;
-    height: 450px;
+    width: 560px;
+    height: 700px;
     border: 1px solid white;
     box-shadow: #A0AEC0 0 0 3.5px 3.5px;
     margin: 50px;
