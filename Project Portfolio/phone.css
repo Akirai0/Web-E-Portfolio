@@ -179,7 +179,7 @@
     
 }
 .slidershow{
-    width: 450px;
+    width: 350px;
 
 }
 .slides{
@@ -195,9 +195,10 @@
 .middle{
     position: absolute;
     margin-top: 10rem;
-    margin-left: auto;
+    margin-left:auto;
 }
 
 #p-btn{
-    margin: 33rem 45rem auto;
+    margin: 33rem 4rem auto;
+
 }
