@@ -178,7 +178,10 @@
     width: 100%;
     
 }
+.slidershow{
+    width: 450px;
 
+}
 .slides{
     width: 600%;
     height: 100%;
@@ -192,5 +195,5 @@
 .middle{
     position: absolute;
     margin-top: 10rem;
-    margin-left: -1rem;
+    margin-left: auto;
 }
